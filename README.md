@@ -26,3 +26,14 @@ Features
 
 
 ![Screenshot 2024-06-23 203033](https://github.com/AltUser44/ExpenseTracker/assets/138399028/e1b54345-0721-463f-a658-283475d5e00e)
+
+
+-----------------------------------------------------
+
+Feel free to visit and explore my project and code journey.
+
+...
+Contact
+If you have any questions, please feel free to reach out through the contact form  or directly via email at kpnkese@gmail.com
+
+Thank you for visiting my portfolio!
