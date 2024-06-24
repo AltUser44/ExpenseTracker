@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="welcome-screen" class="screen">
+    <h1 id="welcome-message">Welcome Back!</h1>
+    <p id="quote" class="quote">Today's actions make tomorrow's future</p>
+    <button onclick="showForm()">Get Started</button>
+  </div>
+
+  <div id="user-info" class="screen" style="display: none;">
+    <h2>Tell Us About Yourself</h2>
+    <form id="user-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required><br>
+      <label for="gender">Gender:</label>
+      <input type="text" id="gender" name="gender" required><br>
+      <label for="career">Career:</label>
+      <input type="text" id="career" name="career" required><br>
+      <label for="salary">Salary:</label>
+      <input type="number" id="salary" name="salary" required><br>
+      <label for="budget">Budget:</label>
+      <input type="number" id="budget" name="budget" required><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div id="expense-tracker" class="screen" style="display: none;">
+    <h2>Expense Tracker</h2>
+    <div id="user-details"></div>
+    <form id="expense-form">
+      <input type="text" id="expense-name" placeholder="Expense Name" required>
+      <input type="number" id="expense-amount" placeholder="Amount" required>
+      <button type="submit">Add Expense</button>
+    </form>
+    <ul id="expense-list"></ul>
+    <div id="expense-options" style="display: none;">
+      <button onclick="continueAdding()">Continue Adding</button>
+      <button onclick="showSummary()">Stop Adding</button>
+    </div>
+  </div>
+
+  <div id="summary" class="screen" style="display: none;">
+    <h2>Expense Summary</h2>
+    <div id="summary-details"></div>
+    <canvas id="expenseChart"></canvas>
+    <p>THANKS FOR USING EXPENSE TRACKER HAVE A GREAT DAY!</p>
+    <button onclick="startOver()">Start Over</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
