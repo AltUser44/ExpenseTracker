@@ -5,7 +5,7 @@ Overview
 The Expense Tracker is a web application designed to help users manage their expenses efficiently. 
 It provides a user-friendly interface for inputting personal information, tracking expenses, and visualizing expenditure data.
 
-Features
+Features:
 
 - Welcome Screen: Greets the user with a welcome message and motivational quote. Allows the user to proceed to the next screen.
 - User Information Form: Collects basic information about the user including name, age, gender, career, salary, and budget.
